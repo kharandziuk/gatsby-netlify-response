@@ -12,6 +12,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
 <form name="contact" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
